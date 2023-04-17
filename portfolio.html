@@ -4,26 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <!-- Header-->
     <header>
       <nav>
-        <a href="WebStudio">WebStudio</a>
+        <a class="webstudio" href="WebStudio">
+          <span class="web">Web</span> <span class="studio">Studio</span>
+        </a>
         <ul>
           <li>
-            <a href="Studio">Studio</a>
+            <a class="port-studio-page" href="index.html">Studio</a>
           </li>
           <li>
-            <a href="Portfolio">Portfolio</a>
+            <a class="port-portfolio-page" href="portfolio.html">Portfolio</a>
           </li>
           <li>
-            <a href="Contacts">Contacts</a>
+            <a class="port-contacts-page" href="Contacts">Contacts</a>
           </li>
         </ul>
       </nav>
-      <ul>
+      <ul class="port-mail-tel-page">
         <li>
           <a href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
@@ -33,9 +42,9 @@
       </ul>
     </header>
     <section>
-      <ul>
+      <ul class="port-button">
         <li>
-          <button type="button">All</button>
+          <button class="port-all-button" type="button">All</button>
         </li>
         <li>
           <button type="button">Web-sites</button>
@@ -51,7 +60,7 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section class="port-main">
       <ul>
         <li>
           <img
@@ -147,11 +156,15 @@
     </section>
   </body>
   <!-- Contacts-->
-  <footer>
-    <a href="WebStudio">WebStudio</a>
-    <address>
+  <footer class="footer-page">
+    <a class="webstudio" href="WebStudio" >
+    <span class="web">Web</span> <span class="studio">Studio</span>
+    <address class="footer-address">
       <ul>
-        <li><span>695 Park Ave, NY 10065, USA</span> <br /></li>
+        <li>
+          <span class="footer-name-address">695 Park Ave, NY 10065, USA</span>
+          <br />
+        </li>
         <li>
           <a href="mailto:info@devstudio.com">info@devstudio.com</a> <br />
         </li>
