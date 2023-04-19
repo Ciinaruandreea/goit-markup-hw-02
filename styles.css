@@ -2,6 +2,12 @@
 .main-navigation a:focus {
   color: #2196f3;
 }
+.global-body a {
+  text-decoration: none;
+}
+.global-body li {
+  list-style-type: none;
+}
 .webstudio {
   font-family: "Raleway";
   font-style: normal;
