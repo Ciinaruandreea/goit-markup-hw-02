@@ -32,11 +32,9 @@
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.studio-page {
-  color: #2196f3;
-}
-.mail-page {
-  color: #2196f3;
+
+.mail-page{
+  color: #757575;
 }
 .tel-page {
   color: #757575;
@@ -155,9 +153,7 @@
   line-height: 16px;
   letter-spacing: 0.02em;
 }
-.port-portfolio-page {
-  color: #2196f3;
-}
+
 .port-studio-page {
   color: #212121;
 }
@@ -175,16 +171,7 @@
 
   color: #757575;
 }
-.port-all-button {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-  background-color: #2196f3;
+
 }
 .port-button {
   font-family: "Roboto";
@@ -196,6 +183,9 @@
   letter-spacing: 0.03em;
   color: #ffffff;
   background-color: #f5f4fa;
+}
+.port-button button:hover {
+  background-color: #2196f3;
 }
 .port-main h4 {
   font-family: "Roboto";
